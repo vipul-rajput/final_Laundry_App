@@ -103,4 +103,62 @@ class Services extends StatelessWidget {
       ),
     );
   }
+//  _customCard1({String imageUrl, String item, String price, int count}){
+//    return SizedBox(
+//      height: 190,
+//      width: 160,
+//      child: Card(
+//        color: Colors.white,
+//        shape: RoundedRectangleBorder(
+//          borderRadius: BorderRadius.circular(20),
+//        ),
+//        elevation: 10,
+//        child: Padding(
+//          padding: const EdgeInsets.all(8.0),
+//          child: Column(
+//            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//            crossAxisAlignment: CrossAxisAlignment.center,
+//            children: <Widget>[
+//              Text(
+//                item,
+//                style: TextStyle(fontSize: 24),
+//              ),
+//              Image.asset("assets/page1/" + imageUrl),
+//              Text(price),
+//              Divider(),
+//              Row(
+//                crossAxisAlignment: CrossAxisAlignment.center,
+//                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                children: <Widget>[
+//                  Container(
+//                    decoration: BoxDecoration(
+//                        border: Border.all(
+//                            color: Colors.blue
+//                        ),
+//                        borderRadius: BorderRadius.circular(100),
+//                        color: Colors.white
+//                    ),
+//                    child: Text(" - ",
+//                      style: TextStyle(fontSize: 28,letterSpacing: 3),),
+//                  ),
+//                  Text("$count"),
+//                  Container(
+//                    decoration: BoxDecoration(
+//                        border: Border.all(
+//                            color: Colors.blue
+//                        ),
+//                        borderRadius: BorderRadius.circular(100),
+//                        color: Colors.white
+//                    ),
+//                    child: Text(" + ",
+//                      style: TextStyle(fontSize: 28,letterSpacing: 1),),
+//                  ),
+//                ],
+//              )
+//            ],
+//          ),
+//        ),
+//      ),
+//    );
+//  }
 }

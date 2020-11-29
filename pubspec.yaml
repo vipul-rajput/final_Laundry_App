@@ -33,6 +33,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   carousel_pro: ^1.0.0
+  firebase_database:
+  flux_validator_dart:
+  toast: ^0.1.5
+  cloud_firestore:
+  firebase_auth:
+  firebase_core : ^0.5.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

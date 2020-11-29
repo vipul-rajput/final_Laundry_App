@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:laundryapp_2/home.dart';
+import 'package:laundryapp_2/signIn.dart';
 
 class NavDrawer extends StatelessWidget {
   @override
@@ -60,7 +61,7 @@ class NavDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.exit_to_app),
             title: Text('Logout'),
-            onTap: () => {Navigator.of(context).pop()},
+            onTap: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SignIn())),
           ),
         ],
       ),
